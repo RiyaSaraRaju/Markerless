@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<!-- A-FRame Library -->
+<script src="ARJS_Files/aframe.min.js"></script>
+<!-- ar.js library -->
+<script src="ARJS_Files/aframe-ar.js"></script>
+
+<a-scene embedded arjs='tracking method:best;'>
+
+
+
+<a-anchor hit -testing-enabled='true'>
+<a-entity position="0.5 -2 -0.5"
+scale ="0.10 0.20 0.20"
+objmodel="obj:url(model/Robot.obj);">
+</a-entity>
+</a-anchor>
+</a-camera-static>
+
+
+
+</a-scene>
+
+</html>
